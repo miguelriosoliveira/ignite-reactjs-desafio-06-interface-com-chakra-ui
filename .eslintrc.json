@@ -19,8 +19,11 @@
 		"ecmaVersion": 12,
 		"sourceType": "module"
 	},
-	"plugins": ["react", "@typescript-eslint", "react-hooks", "prettier"],
+	"plugins": ["react", "@typescript-eslint", "import", "prettier", "react-hooks"],
 	"rules": {
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+
+		"import/extensions": ["error", "ignorePackages", { "ts": "never", "tsx": "never" }],
 		"import/order": [
 			"error",
 			{
@@ -34,6 +37,11 @@
 		"import/prefer-default-export": "off",
 
 		"prettier/prettier": "error",
+
+		"react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
+		"react/jsx-props-no-spreading": "off",
+		"react/prop-types": "off",
+		"react/react-in-jsx-scope": "off",
 
 		"react-hooks/exhaustive-deps": "warn",
 		"react-hooks/rules-of-hooks": "error"
