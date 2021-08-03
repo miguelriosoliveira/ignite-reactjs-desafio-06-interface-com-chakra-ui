@@ -1,3 +1,5 @@
+import { Box } from '@chakra-ui/react';
+
 export function ContinentsSlider() {
-	return <>ContinentsSlider</>;
+	return <Box>ContinentsSlider</Box>;
 }

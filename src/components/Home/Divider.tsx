@@ -1,3 +1,5 @@
+import { Box } from '@chakra-ui/react';
+
 export function Divider() {
-	return <>divider</>;
+	return <Box>divider</Box>;
 }

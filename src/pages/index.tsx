@@ -4,9 +4,9 @@ export default function Home() {
 	return (
 		<>
 			<Banner />
-			<TravelTypes />
+			<TravelTypes my="20" />
 			<Divider />
-			<CallToAction />
+			<CallToAction my="14" />
 			<ContinentsSlider />
 		</>
 	);
