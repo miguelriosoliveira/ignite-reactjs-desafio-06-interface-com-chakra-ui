@@ -5,7 +5,9 @@ export function Banner() {
 		<Flex justify="center" bgImage="assets/background.png" bgSize="cover">
 			<Flex align="center" flex="1" maxW="1160px">
 				<Box p="8">
-					<Heading color="light.headingsAndText">5 Continents, infinite possibilities.</Heading>
+					<Heading fontWeight="500" color="light.headingsAndText">
+						5 Continents, infinite possibilities.
+					</Heading>
 					<Text color="light.info">
 						The time has come to take the trip you have always dreamed of off the drawing board.
 					</Text>
