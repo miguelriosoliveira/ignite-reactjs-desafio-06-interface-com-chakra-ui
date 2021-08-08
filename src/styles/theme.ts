@@ -24,6 +24,26 @@ export const theme = extendTheme({
 				bg: 'light.headingsAndText',
 				color: 'dark.headingsAndText',
 			},
+			'.swiper-container': {
+				h: '100%',
+
+				'.swiper-button-prev': {
+					color: 'highlight',
+				},
+
+				'.swiper-button-next': {
+					color: 'highlight',
+				},
+
+				'.swiper-pagination-bullet': {
+					bg: 'dark.info',
+					opacity: 1,
+				},
+
+				'.swiper-pagination-bullet-active': {
+					bg: 'highlight',
+				},
+			},
 		},
 	},
 });
