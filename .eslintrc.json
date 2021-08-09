@@ -21,6 +21,8 @@
 	},
 	"plugins": ["react", "@typescript-eslint", "import", "prettier", "react-hooks"],
 	"rules": {
+		"camelcase": "off",
+
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 
 		"import/extensions": ["error", "ignorePackages", { "ts": "never", "tsx": "never" }],
