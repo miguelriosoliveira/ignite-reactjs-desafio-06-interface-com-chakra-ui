@@ -37,7 +37,7 @@ export function ContinentsSlider() {
 
 				<SwiperSlide>
 					<SlideImage
-						imageSrc="assets/continents/north_america.jpeg"
+						imageSrc="assets/continents/north-america.jpeg"
 						href="/north-america"
 						title="North America"
 						subtitle="A place of opportunities"
@@ -46,7 +46,7 @@ export function ContinentsSlider() {
 
 				<SwiperSlide>
 					<SlideImage
-						imageSrc="assets/continents/south_america.jpeg"
+						imageSrc="assets/continents/south-america.jpeg"
 						href="/south-america"
 						title="South America"
 						subtitle="Rich fauna and flora"
