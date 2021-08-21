@@ -1,6 +1,8 @@
-import { Box, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Image, Text, useBreakpointValue } from '@chakra-ui/react';
 
 export function HomeBanner() {
+	const isMobileScreen = useBreakpointValue({ base: true, sm: false });
+
 	return (
 		<Flex justify="center" bgImage="assets/background.png" bgSize="cover">
 			<Flex align="center" flex="1" maxW="1160px">
@@ -13,15 +15,17 @@ export function HomeBanner() {
 					</Text>
 				</Box>
 
-				<Image
-					src="assets/airplane.png"
-					alt="Airplane"
-					ml="auto"
-					mr="4"
-					w="417px"
-					h="270px"
-					transform="rotate(3deg) translateY(30px)"
-				/>
+				{!isMobileScreen && (
+					<Image
+						src="assets/airplane.png"
+						alt="Airplane"
+						ml="auto"
+						mr="4"
+						w="417px"
+						h="270px"
+						transform="rotate(3deg) translateY(30px)"
+					/>
+				)}
 			</Flex>
 		</Flex>
 	);
