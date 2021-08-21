@@ -16,7 +16,7 @@ export function Bio({
 	numberOfCitiesInTop100,
 }: BioProps) {
 	return (
-		<Flex w="100%" maxW="1160px" justify="space-between">
+		<Flex w="100%" maxW="1160px" justify="space-between" px={['8', '8', '8', '0']}>
 			<Text maxW="600px" lineHeight="9" fontSize="24px" textAlign="justify">
 				{description}
 			</Text>

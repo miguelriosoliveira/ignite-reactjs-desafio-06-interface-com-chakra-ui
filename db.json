@@ -7,7 +7,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/africa-banner.jpeg"
+			"image_url": "/assets/continents/africa-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
 		},
 		{
 			"id": "asia",
@@ -16,7 +48,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/asia-banner.jpeg"
+			"image_url": "/assets/continents/asia-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "Tokyo",
+					"country": "Japan",
+					"image_url": "https://images.unsplash.com/photo-1542052125323-e69ad37a47c2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197604.png"
+				},
+				{
+					"name": "Hong Kong",
+					"country": "China",
+					"image_url": "https://images.unsplash.com/photo-1594973782943-3314fe063f68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197375.png"
+				},
+				{
+					"name": "Mumbai",
+					"country": "India",
+					"image_url": "https://images.unsplash.com/photo-1562979314-bee7453e911c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197419.png"
+				},
+				{
+					"name": "Bangkok",
+					"country": "Thailand",
+					"image_url": "https://images.unsplash.com/photo-1582652840955-5da18538b6dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197452.png"
+				},
+				{
+					"name": "Seoul",
+					"country": "South Korea",
+					"image_url": "https://images.unsplash.com/photo-1584664736667-8bf747a4f11d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197582.png"
+				}
+			]
 		},
 		{
 			"id": "europe",
@@ -25,7 +89,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/europe-banner.jpeg"
+			"image_url": "/assets/continents/europe-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
 		},
 		{
 			"id": "north-america",
@@ -34,7 +130,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/north-america-banner.jpeg"
+			"image_url": "/assets/continents/north-america-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
 		},
 		{
 			"id": "south-america",
@@ -43,7 +171,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/south-america-banner.jpeg"
+			"image_url": "/assets/continents/south-america-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
 		},
 		{
 			"id": "oceania",
@@ -52,7 +212,39 @@
 			"number_of_countries": 50,
 			"number_of_languages": 160,
 			"number_of_cities_in_top_100": 58,
-			"image_url": "/assets/continents/oceania-banner.jpeg"
+			"image_url": "/assets/continents/oceania-banner.jpeg",
+			"top_5_cities": [
+				{
+					"name": "London",
+					"country": "England",
+					"image_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197374.png"
+				},
+				{
+					"name": "Paris",
+					"country": "France",
+					"image_url": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197560.png"
+				},
+				{
+					"name": "Rome",
+					"country": "Italy",
+					"image_url": "https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197626.png"
+				},
+				{
+					"name": "Prague",
+					"country": "Czech Republic",
+					"image_url": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197576.png"
+				},
+				{
+					"name": "Amsterdam",
+					"country": "Netherlands",
+					"image_url": "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=256&q=80",
+					"country_flag_url": "https://image.flaticon.com/icons/png/32/197/197441.png"
+				}
+			]
 		}
 	]
 }

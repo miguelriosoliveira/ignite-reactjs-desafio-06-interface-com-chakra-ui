@@ -13,6 +13,7 @@ export function ContinentBanner({ name, imageUrl }: ContinentBannerProps) {
 			bgImage={`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${imageUrl}')`}
 			bgPos="center"
 			align="flex-end"
+			px="8"
 		>
 			<Heading
 				as="h1"

@@ -25,8 +25,9 @@ export default function Continent({
 	image_url,
 	top_5_cities,
 }: ContinentProps) {
+	console.log(top_5_cities);
 	return (
-		<Stack align="center" gridGap="20">
+		<Stack align="center" gridGap="20" mb="9">
 			<ContinentBanner name={name} imageUrl={image_url} />
 			<Bio
 				description={description}
