@@ -10,7 +10,7 @@ export function TravelTypes(props: TravelTypesProps) {
 	if (isMobileScreen) {
 		return (
 			<>
-				<Flex {...props} maxW="1160px" mx="auto" px="8" justify="space-between">
+				<Flex {...props} maxW="1160px" mx="auto" px="16" justify="space-between">
 					<TravelType
 						image={<Image src="assets/travel_types/cocktail.png" alt="Cocktail" />}
 						caption="night life"
@@ -21,7 +21,7 @@ export function TravelTypes(props: TravelTypesProps) {
 					/>
 				</Flex>
 
-				<Flex {...props} maxW="1160px" mx="auto" px="8" justify="space-between">
+				<Flex {...props} maxW="1160px" mx="auto" px="16" justify="space-between">
 					<TravelType
 						image={<Image src="assets/travel_types/building.png" alt="Building" />}
 						caption="modern"
@@ -32,7 +32,7 @@ export function TravelTypes(props: TravelTypesProps) {
 					/>
 				</Flex>
 
-				<Flex {...props} maxW="1160px" mx="auto" px="8" justify="center">
+				<Flex {...props} maxW="1160px" mx="auto" mb="10" px="16" justify="center">
 					<TravelType
 						image={<Image src="assets/travel_types/earth.png" alt="Earth" />}
 						caption="and more..."

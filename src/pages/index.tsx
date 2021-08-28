@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<>
 			<HomeBanner />
-			<TravelTypes my="20" />
+			<TravelTypes my={['4', '20']} />
 			<Divider />
 			<CallToAction my="14" />
 			<ContinentsSlider />
