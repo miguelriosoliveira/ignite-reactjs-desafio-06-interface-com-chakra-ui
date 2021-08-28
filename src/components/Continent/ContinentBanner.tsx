@@ -8,22 +8,23 @@ interface ContinentBannerProps {
 export function ContinentBanner({ name, imageUrl }: ContinentBannerProps) {
 	return (
 		<Flex
-			h="500px"
+			h={['150px', '500px']}
 			w="100%"
 			bgImage={`linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${imageUrl}')`}
 			bgPos="center"
-			align="flex-end"
+			align={['center', 'flex-end']}
 			px="8"
 		>
 			<Heading
 				as="h1"
-				size="2xl"
+				fontSize={['28px', '48px']}
 				fontWeight="semibold"
+				textAlign={['center', 'initial']}
 				color="light.headingsAndText"
 				w="100%"
 				maxW="1160px"
 				mx="auto"
-				mb="16"
+				mb={['0', '16']}
 			>
 				{name}
 			</Heading>
