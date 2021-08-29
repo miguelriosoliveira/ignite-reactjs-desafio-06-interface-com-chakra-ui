@@ -13,11 +13,11 @@ interface CitiesProps {
 
 export function Cities({ top5 }: CitiesProps) {
 	return (
-		<Box>
-			<Heading fontWeight="medium" lineHeight="54px" mb="8">
+		<Box w={['100%', 'auto']} px={['8', '8', '8', '0']}>
+			<Heading fontWeight="medium" fontSize={['24px', '36px']} lineHeight={['36px', '54px']} mb="8">
 				Cities in the 100
 			</Heading>
-			<SimpleGrid columns={4} spacing={10}>
+			<SimpleGrid columns={[1, 4]} spacing={5}>
 				{top5.map(city => (
 					<Box
 						key={city.name}
