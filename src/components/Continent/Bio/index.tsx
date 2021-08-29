@@ -16,12 +16,23 @@ export function Bio({
 	numberOfCitiesInTop100,
 }: BioProps) {
 	return (
-		<Flex w="100%" maxW="1160px" justify="space-between" px={['8', '8', '8', '0']}>
-			<Text maxW="600px" lineHeight="9" fontSize="24px" textAlign="justify">
+		<Flex
+			direction={['column', 'row']}
+			w="100%"
+			maxW="1160px"
+			justify="space-between"
+			px={['8', '8', '8', '0']}
+		>
+			<Text
+				maxW="600px"
+				lineHeight={['21px', '36px']}
+				fontSize={['16px', '24px']}
+				textAlign="justify"
+			>
 				{description}
 			</Text>
 
-			<Flex w={['343px', '490px']} align="center" justify="space-between">
+			<Flex w={['100%', '490px']} align="center" justify="space-between">
 				<InfoNumber number={numberOfCountries} text="countries" />
 				<InfoNumber number={numberOfLanguages} text="languages" />
 				<InfoNumber

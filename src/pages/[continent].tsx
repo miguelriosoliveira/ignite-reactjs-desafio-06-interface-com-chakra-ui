@@ -26,7 +26,7 @@ export default function Continent({
 	top_5_cities,
 }: ContinentProps) {
 	return (
-		<Stack align="center" gridGap="20" mb="9">
+		<Stack align="center" gridGap={['6', '20']} mb="9">
 			<ContinentBanner name={name} imageUrl={image_url} />
 			<Bio
 				description={description}
